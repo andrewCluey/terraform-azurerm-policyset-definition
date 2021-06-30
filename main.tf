@@ -1,6 +1,6 @@
 
 
-resource "azurerm_policy_set_definition" "example" {
+resource "azurerm_policy_set_definition" "policy_set" {
   name                        = var.policy_set.name
   policy_type                 = "Custom"
   display_name                = var.policy_set.display_name
